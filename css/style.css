@@ -1,0 +1,157 @@
+
+@font-face {
+    font-family: 'brandon';
+    src: url('BrandonGrotesque-Regular.woff2') format('woff2'),
+        url('BrandonGrotesque-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'brandonthin';
+  src: url('BrandonGrotesque-Thin.woff2') format('woff2'),
+       url('BrandonGrotesque-Thin.woff') format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'brandonthinItalic';
+  src: url('BrandonGrotesque-ThinItalic.woff2') format('woff2'),
+       url('BrandonGrotesque-ThinItalic.woff') format('woff');
+  font-weight: lighter;
+  font-style: italic;
+}
+
+body {
+  font-family:'brandon';
+  text-anchor: middle;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#canvas {
+  z-index:10;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity:1;
+}
+#bgContain {
+  position: absolute;
+  opacity:0;
+  left:5000px;
+}
+#playGround {
+  position: absolute;
+  left: 67%;
+  top: 47%;
+  transform: translate(-50%, -50%);
+}
+.bg {
+  position: absolute;
+
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-48.6%, -50%);
+  opacity:1;
+}
+.claim {
+  font-family: 'brandon';
+  font-weight: 400;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 3em;
+}
+.primClaim {
+  z-index: 100;
+  font-family: 'brandonthin';
+  position: absolute;
+  left: 30%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  line-height: 105%;
+  font-weight: lighter;
+  font-size: 12em;
+  opacity:0;
+}
+.secClaim {
+  z-index: 100;
+  position: absolute;
+  left: 30%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  font-size: 3em;
+  opacity:0;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.font-small {
+  font-size:35px;
+  opacity:0;
+  fill:#fff;
+}
+.circle-small {
+  opacity:0;
+  stroke-width:2;
+  fill:#000;
+  stroke:#fff;
+}
+.font-title {
+  font-size:38px;
+  font-family:'brandon';
+  fill:#fff;
+  opacity:0;
+}
+.font-partner {
+  font-family:'brandon';
+  opacity:0;
+  font-size:26px;
+  fill:#fff;
+}
+.naut {
+  font-size:43px;
+  fill:#000;
+  opacity:0;
+}
+.debug {
+  font-size:43px;
+}
+.circle-huge {
+  opacity:0;
+  stroke-width:3;
+  fill:none;
+  stroke:#fff;
+}
+.circle-huge-later {
+  opacity:0;
+  stroke-width:2;
+  fill:none;
+  stroke:#fff;
+}
+
+.triangle {
+  opacity:0;
+  fill:#fff;
+}
+.processCircles {
+  opacity:0;
+  stroke-width:2;
+  fill:none;
+  stroke:#fff;
+}
+#processImg {
+  opacity:0;
+  z-index: 120;
+  position: absolute;
+  left: 60%;
+  top: 67%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>-naut</title>
+      <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="overflow: hidden">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="vendor.44deddaebd657f136e9b.js">
+</script><script type="text/javascript" src="bundle.92e1aa622e57ecbc0965.js"></script></body>
+
+<iframe class="bg"  width="3840" height="2160" src="https://naut.ch/bgNotContainer.html"></iframe>
+
+
+<div id="canvaCon">
+    <canvas id="canvas" style="mix-blend-mode: multiply; position:absolute;"></canvas>
+</div>
+<iframe class="bg" id="bgContain" width="3840" height="2160" src=""></iframe>
+
+<!-- 1. SECTION . LOGO AND CLAIM -->
+<div class="container" id="logoClaim">
+  <div id="logo">
+    <img  src="../naut.png" alt="website coming soon" height="80">
+  </div>
+  <h1 class="claim">Interactive experiences intersecting art,</br>design, technology and scenography.</h1>
+</div>
+
+
+<!-- 2. SECTION . VERSATILE
+
+  <div id="claimVersatile" class="primClaim">WE ARE</br>VERSATILE</div>
+  <div id="secClaimVersatile" class="secClaim">companions able to think</br>across the disciplines</div>
+  <div id="triVersa" class="secClaim">and highly experienced</br>courios navigators of the</br>intersecting fields</div>
+
+  <div id="quaVersa" class="secClaim">and highly experienced</br>courios navigators of the</br>intersecting fields</div>-->
+  <div id="processImg">
+  <img  src="http://naut.ch/assets/process.png">
+  </div>
+
+<!-- 2. SECTION . EXPLAIN WHO IS NAUT -->
+<div id="playGround">
+  <svg version="1.1" id="wholeSVG" width="3840" height="2160" x="0px" y="0px" >
+    <mask id="mask-path" x="0" y="0" >
+
+    <circle id="c01" class="circle-huge" cx="1920" cy="160" r="200" />
+    <circle id="c02" class="circle-huge" cx="930" cy="2010" r="200" />
+    <circle id="c03" class="circle-huge" cx="2930" cy="2010" r="200"/>
+    <circle id="c04" class="circle-huge-later" cx="1922" cy="1078" r="330" />
+    <circle id="c05" class="circle-huge-later" cx="1918" cy="1078" r="330"/>
+
+    <text id="title01" x="1920" y="150" class="font-title">AESTHETICS</text>
+    <text id="title02" x="930" y="2010" class="font-title">EMPATHY</text>
+    <text id="title03" x="2930" y="2010" class="font-title">TECHNOLOGY</text>
+
+    <text transform="matrix(1 0 0 1 2354 992)" class="font-small">#lightInstallations</text>
+    <text transform="matrix(1 0 0 1 2366 1245)" class="font-small">#programming</text>
+    <text transform="matrix(1 0 0 1 2074 1245)" class="font-small">#designThinking</text>
+    <text transform="matrix(1 0 0 1 1925 1497)" class="font-small">#physicalComputing</text>
+    <text transform="matrix(1 0 0 1 2099 1307)" class="font-small">#virtualReality</text>
+    <text transform="matrix(1 0 0 1 2231 1119)" class="font-small">#materialExperiments</text>
+    <text transform="matrix(1 0 0 1 2178 1056)" class="font-small">#liveRenderingForVR</text>
+    <text transform="matrix(1 0 0 1 2376 1182)" class="font-small">#3Dvisualisation</text>
+    <text transform="matrix(1 0 0 1 2293 1497)" class="font-small">#dataAPI</text>
+    <text transform="matrix(1 0 0 1 1782 1245)" class="font-small">#interfaceDesign</text>
+    <text transform="matrix(1 0 0 1 1530 1245)" class="font-small">#storytelling</text>
+    <text transform="matrix(1 0 0 1 1593 1371)" class="font-small">#participation</text>
+    <text transform="matrix(1 0 0 1 1340 1119)" class="font-small">#joyofuse</text>
+    <text transform="matrix(1 0 0 1 1710 1434)" class="font-small">#handsOnLearning</text>
+    <text transform="matrix(1 0 0 1 1761 1308)" class="font-small">#informationArchitecture</text>
+    <text transform="matrix(1 0 0 1 1442 1181)" class="font-small">#socialMedia</text>
+    <text transform="matrix(1 0 0 1 1643 1181)" class="font-small">#intuition</text>
+    <text transform="matrix(1 0 0 1 1465 1307)" class="font-small">#emotions</text>
+    <text transform="matrix(1 0 0 1 1898 930)" class="font-small">#generativeDesign</text>
+    <text transform="matrix(1 0 0 1 2299 930)" class="font-small">#generativeArt</text>
+    <text transform="matrix(1 0 0 1 2367 1434)" class="font-small">#electronics</text>
+    <text transform="matrix(1 0 0 1 2403 1308)" class="font-small">#realtimeData</text>
+    <text transform="matrix(1 0 0 1 2034 1434)" class="font-small">#internetOfThings</text>
+    <text transform="matrix(1 0 0 1 2030 993)" class="font-small">#bigdataVisualisation</text>
+    <text transform="matrix(1 0 0 1 1750 993)" class="font-small">#infoGraphics</text>
+    <text transform="matrix(1 0 0 1 1872 1371)" class="font-small">#augmentedReality</text>
+    <text transform="matrix(1 0 0 1 2258 1371)" class="font-small">#computerPerception</text>
+    <text transform="matrix(1 0 0 1 1656 866)" class="font-small">#signageDesign</text>
+    <text transform="matrix(1 0 0 1 1520 930)" class="font-small">#visualDesign</text>
+    <text transform="matrix(1 0 0 1 1601 1056)" class="font-small">#scenography</text>
+    <text transform="matrix(1 0 0 1 1500 993)" class="font-small">#CIdesign</text>
+    <text transform="matrix(1 0 0 1 1538 1118)" class="font-small">#iconDesign</text>
+    <text transform="matrix(1 0 0 1 2299 867)" class="font-small">#kineticInstallations</text>
+
+
+      <circle class="circle-small" cx="1640" cy="950" r="00"/>
+      <text transform="matrix(1 0 0 1 1640 940)" class="font-partner"><tspan>branding</tspan><tspan x="0" y="30">agency</tspan></text>
+
+      <circle class="circle-small" cx="1420" cy="1170" r="00"/>
+      <text transform="matrix(1 0 0 1 1420 1180)" class="font-partner">copywriter</text>
+      <text transform="matrix(1 0 0 1 1420 1180)" class="font-partner">copywriter</text>
+
+      <circle class="circle-small" cx="1540" cy="1470" r="00"/>
+      <text transform="matrix(1 0 0 1 1540 1480)" class="font-partner">researcher</text>
+
+      <circle class="circle-small" cx="1830" cy="1380" r="00"/>
+      <text transform="matrix(1 0 0 1 1830 1390)" class="font-partner">data scientist</text>
+
+      <circle class="circle-small" cx="2400" cy="1180" r="00"/>
+      <text transform="matrix(1 0 0 1 2400 1190)" class="font-partner">3D developer</text>
+
+      <circle class="circle-small" cx="2200" cy="1470" r="00"/>
+      <text transform="matrix(1 0 0 1 2200 1470)" class="font-partner"><tspan>hardware</tspan><tspan x="0" y="30">partner</tspan></text>
+
+      <circle class="circle-small" cx="2180" cy="1120" r="00"/>
+      <text transform="matrix(1 0 0 1 2180 1110)" class="font-partner"><tspan>software</tspan><tspan x="0" y="30">developer</tspan></text>
+
+      <circle class="circle-small" cx="6400" cy="750" r="00"/>
+      <text transform="matrix(1 0 0 1 6400 765)" class="font-partner">frontender</text>
+
+      <circle class="circle-small" cx="1880" cy="970" r="00"/>
+      <text transform="matrix(1 0 0 1 1880 960)" class="font-partner"><tspan>scenography</tspan><tspan x="0" y="30">agency</tspan></text>
+
+
+
+      <polygon class="triangle" id="t01" points="1597.8,1085.2 1586,1066.8 1574.2,1085.2 	"/>
+      <polygon class="triangle" id="t02" points="1811.7,775.2 1825.7,758.5 1804.7,752.7 	"/>
+      <polygon class="triangle" id="t03" points="2171.6,886.3 2191.8,894.6 2190.9,872.8 	"/>
+      <polygon class="triangle" id="t04" points="2173.7,1262.9 2171.9,1284.6 2192.4,1277.3 	"/>
+      <polygon class="triangle" id="t05" points="1815.1,1377.9 1793.8,1382.7 1807,1400.1 	"/>
+
+    </mask>
+	  <image  x="0" y="0" width="3840" height="2160" xlink:href="http://naut.ch/assets/colors.jpg" mask="url(#mask-path)"/>
+    <text x="1916" y="1180" id="nautlogo" class="naut">-naut</text>
+
+
+
+
+     <text x="1916" y="780" id="xy" class="debug"></text>
+
+
+
+
+   </svg>
+
+</div>
+
+ <div id="redBox">SG</div>
+
+    <script  src="js/index.js"></script>
+
+
+</body>
+
+</html>
